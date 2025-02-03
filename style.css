@@ -59,6 +59,14 @@ nav {
 }
 .feature {
     position: absolute;
+    display: flex;
+    color: #fff;
+}
+.feature div {
+    margin-left: 30px;
+}
+.feature div p {
+    margin-top: 8px;
 }
 .one {
     top: 450px;
