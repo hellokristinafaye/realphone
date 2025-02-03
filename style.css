@@ -52,10 +52,11 @@ nav {
     top: 0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
+    /* background: #ccc; */
+    transform: rotate(0deg);
 }
 .feature img{
-    width: 70px;
+    width: 90px;
 }
 .feature {
     position: absolute;
