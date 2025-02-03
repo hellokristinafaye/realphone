@@ -122,10 +122,11 @@ nav {
     width: 0;
     height: 0;
     border-top: 500px solid #fff;
-    border-right: 500px solid red;
+    border-right: 500px solid transparent;
     border-bottom: 500px solid #fff;
     border-left: 500px solid #fff;
     position:absolute;
     left: 0;
     top: 0;
+    /* oh I see.  This rule creates four quadrants around the feature circle. 3 of the quadrants are white so the features/text blend in/disappear, and ONE quadrant is transparent so the background displays, and you can see the feature icon/text against it.  */
 }
