@@ -54,6 +54,8 @@ nav {
     border-radius: 50%;
     /* background: #ccc; */
     transform: rotate(0deg);
+    /* transition slows the rate at which the circle rotates */
+    transition: 1s;
 }
 .feature img{
     width: 90px;
